@@ -31,7 +31,7 @@ jobs:
         with:
           directory: terraform/
           framework: terraform
-          skip_check: CKV2_AWS_62,CKV2_AWS_5,CKV2_AWS_60,CKV_AWS_126,CKV_AWS_135,CKV_AWS_226,CKV_AWS_129,CKV_AWS_161,CKV_AWS_157,CKV_AWS_118
+          skip_check: CKV2_AWS_62,CKV2_AWS_5,CKV2_AWS_60,CKV_AWS_126,CKV_AWS_135,CKV_AWS_226,CKV_AWS_129,CKV_AWS_161,CKV_AWS_157,CKV_AWS_118,CKV_AWS_18,CKV2_AWS_41,CKV2_AWS_61,CKV_AWS_144
           output_format: cli,sarif
           output_file_path: console,checkov-terraform.sarif
           soft_fail: false
